@@ -1,6 +1,21 @@
 .post {
   margin-bottom: 100px;
 
+  &--lg {
+    margin-bottom: 140px;
+
+    .post__header {
+      &::before {
+        height: 400px;
+        width: 588px;
+      }
+    }
+
+    .post__desc {
+      margin-bottom: 28px;
+    }
+  }
+
   &--narrow {
     position: relative;
     margin-bottom: 74px;
