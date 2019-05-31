@@ -1,0 +1,129 @@
+.post {
+  margin-bottom: 100px;
+
+  &--narrow {
+    position: relative;
+    margin-bottom: 82px;
+  }
+
+  &__left {
+    position: relative;
+    float: left;
+    max-width: 540px;
+
+    &--narrow {
+      max-width: 372px;
+    }
+
+     &--line {
+      &::before {
+        content: "";
+        position: absolute;
+        top: 59%;
+        right: -302px;
+        display: block;
+        width: 244px;
+        height: 5px;
+        z-index: 1;
+        background: linear-gradient(to right, #000 56%, #fff 44%);
+      }
+    }
+  }
+
+  &__right {
+    position: relative;
+    float: right;
+    max-width: 540px;
+
+    &--line {
+      &::before {
+        content: "";
+        position: absolute;
+        top: 41%;
+        left: -171px;
+        display: block;
+        width: 268px;
+        height: 5px;
+        background: linear-gradient(to right, #000 64%, #fff 46%);
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        top: 73%;
+        left: -163px;
+        display: block;
+        width: 256px;
+        height: 5px;
+        background: linear-gradient(to right, #000 64%, #fff 46%);
+      }
+    }
+  }
+
+  &__header {
+    margin: 0;
+    margin-top: -14px;
+    margin-bottom: 20px;
+    margin-left: -4px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    &--lg {
+      position: relative;
+      margin-top: 146px;
+      font-size: 79px;
+      letter-spacing: 8px;
+      font-weight: 800;
+
+      &:before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: -142px;
+        left: 58px;
+        transform: rotate(62deg);
+        width: 464px;
+        height: 242px;
+        background-color: #f8f8f8;
+        z-index: -1;
+      }
+    }
+  }
+
+  &__desc {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 26px;
+  }
+
+  &__link {
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+    font-weight: 600;
+    width: 124px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &__time {
+    position: absolute;
+    top: -32px;
+    font-size: 24px;
+    font-weight: 800;
+
+    &--right {
+      right: 0;
+    }
+
+    &--left {
+      left: 0;
+    }
+  }
+}

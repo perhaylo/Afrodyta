@@ -1,0 +1,15 @@
+.logo {
+  font-size: 0;
+
+  & img {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  &:before{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;;
+  }
+}

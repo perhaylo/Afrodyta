@@ -1,4 +1,12 @@
 @import 'normalize';
 @import 'variables';
 @import 'mixins';
+@import 'fonts';
 @import 'reset';
+
+@import 'components/container';
+@import 'components/header';
+@import 'components/nav';
+@import 'components/logo';
+@import 'components/banner';
+@import 'components/post';
