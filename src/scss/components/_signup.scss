@@ -1,0 +1,30 @@
+.signup {
+  padding: 84px 0 70px;
+  margin-bottom: 96px;
+  text-align: center;
+  background-color: #ccc;
+  background-image: url("../img/kaboompics.com_Jeans shorts.png");
+  background-position: center center;
+  background-size: cover;
+
+  &__header {
+    margin: 0 0 18px;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 600;
+    text-shadow: 0 0 20px rgba(48,48,48,0.7);
+    text-transform: uppercase;
+  }
+
+  &__link {
+    display: inline-block;
+    padding: 8px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 20px;
+    font-size: 13px;
+    color: inherit;
+    font-weight: 600;
+    background-color: #fff;
+  }
+}
