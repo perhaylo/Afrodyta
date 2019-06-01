@@ -31,11 +31,11 @@ let isProd = !isDev;
 
 const path = {
   dist: {
-    base: "./doc",
-    style: "./doc/css",
-    js: "./doc/js",
-    img: "./doc/img",
-    fonts: "./doc/fonts"
+    base: "./docs",
+    style: "./docs/css",
+    js: "./docs/js",
+    img: "./docs/img",
+    fonts: "./docs/fonts"
   },
   src: {
     base: "./src",
